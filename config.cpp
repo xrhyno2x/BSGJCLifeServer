@@ -100,15 +100,16 @@ class CfgFunctions {
 			class cleanupRequest {};
 			class setObjVar {};
 			class keyManagement {};
+			class insureCar {};
 		};
-		
+
 		class Smartphone
 		{
 		 file = "\life_server\Functions\Smartphone";
 		 class handleMessages {};
 		 class msgRequest {};
 		};
-		
+
 		class DynMarket
 		{
 		 file = "\life_server\Functions\DynMarket";
@@ -117,7 +118,7 @@ class CfgFunctions {
 		 class getUpdate {};
 		 class HandleDB {};
 		 class playerLogged {};
-		 class sleeper {}; 
+		 class sleeper {};
 		};
 
 		class Housing {
